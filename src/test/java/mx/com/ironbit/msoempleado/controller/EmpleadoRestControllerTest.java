@@ -35,8 +35,6 @@ public class EmpleadoRestControllerTest {
 	@MockBean
 	private BitacoraService bitacoraService;
 
-	//@MockBean
-	//private HttpServletRequest requestP;
 
 	@Test
 	public void testVerDetalles() throws Exception {
