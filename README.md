@@ -47,4 +47,5 @@ Una vez clonado o descargado el código en su PC deberá importar el proyecto o 
 
 Se debe de agregar esta variable de entorno a la PC
 
-image
+![image](https://github.com/devops191359/msoempleado/assets/16689291/966f954c-7408-4d93-9d75-e99eebbd9fb4)
+
