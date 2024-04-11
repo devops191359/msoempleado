@@ -4,6 +4,7 @@ import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import javax.servlet.http.HttpServletRequest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import mx.com.ironbit.msoempleado.common.Util;
+import mx.com.ironbit.msoempleado.service.BitacoraService;
 import mx.com.ironbit.msoempleado.service.EmpleadoService;
 
 @WebMvcTest(EmpleadoRestController.class)
@@ -30,15 +32,17 @@ public class EmpleadoRestControllerTest {
 	@MockBean
 	private Util util;
 
+	@MockBean
+	private BitacoraService bitacoraService;
+
+
 	@Test
 	public void testVerDetalles() throws Exception {
-		RequestBuilder request = MockMvcRequestBuilders
-				.get("/empleados/busquedas")
-				.accept(MediaType.APPLICATION_JSON);
-		
-		MvcResult result = mockMvc.perform(request)
-				.andExpect(status().is5xxServerError())
-				.andExpect(content().json("{\"codigo\": null,\"mensaje\":\"Problema interno en el servidor, favor de validar\"}"))
+		RequestBuilder request = MockMvcRequestBuilders.get("/empleados/busquedas").accept(MediaType.APPLICATION_JSON);
+
+		MvcResult result = mockMvc.perform(request).andExpect(status().is5xxServerError())
+				.andExpect(content()
+						.json("{\"codigo\": null,\"mensaje\":\"Problema interno en el servidor, favor de validar\"}"))
 				.andReturn();
 
 	}
