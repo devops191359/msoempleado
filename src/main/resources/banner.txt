@@ -1,0 +1,21 @@
+---------------------------------------------------------------->
+----------------------------------------------------------------> 
+
+I)iiii R)rrrrr   O)oooo  N)n   nn       B)bbbb   I)iiii T)tttttt 
+  I)   R)    rr O)    oo N)nn  nn       B)   bb    I)      T)    
+  I)   R)  rrr  O)    oo N) nn nn       B)bbbb     I)      T)    
+  I)   R) rr    O)    oo N)  nnnn       B)   bb    I)      T)    
+  I)   R)   rr  O)    oo N)   nnn       B)    bb   I)      T)    
+I)iiii R)    rr  O)oooo  N)    nn       B)bbbbb  I)iiii    T)   
+
+---------------------------------------------------------------->
+---------------------------------------------------------------->                                                               
+                                                                
+Microservicio : ${info.app.name} 
+Version : ${info.app.version}
+Version Java : ${info.app.java.version}
+Author : Eduardo Guillen Maldonado
+Version Spring Boot ${spring-boot.version}
+
+---------------------------------------------------------------->
+----------------------------------------------------------------> 
