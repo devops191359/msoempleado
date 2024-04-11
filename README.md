@@ -52,7 +52,7 @@ Se debe de agregar esta variable de entorno a la PC
 
 ##VERIFICAR INFORMACIÓN EN BASE DE DATOS H2
 
-Para verificar la trazabilidad o la info de los empleados desde la BD de H2 deberás acceder a la liga http://localhost:8080/h2-console/login.jsp?jsessionid=d392b4350f826e765a87d9c801bf0ba8 en la cual deberás ingresar las siguientes cedenciales y cadena de conexión coimo se muestra a continuación:
+Para verificar la trazabilidad o la info de los empleados desde la BD de H2 deberás acceder a la liga http://localhost:10410/msoempleado/v1/h2-console en la cual deberás ingresar las siguientes cedenciales y cadena de conexión coimo se muestra a continuación:
 
 ##Datasource
 
