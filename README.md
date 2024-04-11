@@ -2,7 +2,7 @@
 Microservicio de Empleados
 
 
-#git clone https://github.com/devops191359/msoempleado
+#git clone https://github.com/devops191359/msoempleado.git
 
 
 #git clone https://github.com/devops191359/mso-empleado-postman.git
