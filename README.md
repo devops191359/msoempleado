@@ -24,5 +24,8 @@ pass: password
 
 
 #--//--Tablas
+
 #SELECT * FROM TA_EMPLEADO;
+
+
 #SELECT * FROM TA_BITACORA;
