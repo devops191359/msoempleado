@@ -29,3 +29,22 @@ pass: password
 
 
 #SELECT * FROM TA_BITACORA;
+
+
+
+#INSTRUCCIONES 
+
+
+Para poder ejecutar este código primero deberá clonar en su pc el repositorio con el siguiente comando:
+
+#git clone https://github.com/devops191359/msoempleado.git
+
+Para compilar y ejecutar dicho web service deberá instalar el java jdk 11
+
+Una vez clonado o descargado el código en su PC deberá importar el proyecto o servuicio web en un entorno de desarrollo Eclipse o Spring Tool Siute versión 4 en adelante o puede ejecutar el web service usando el siguiente comando desde el cmd estando sobre la carpeta del proyecto:
+
+#mvn spring-boot:run
+
+Se debe de agregar esta variable de entorno a la PC
+
+image
