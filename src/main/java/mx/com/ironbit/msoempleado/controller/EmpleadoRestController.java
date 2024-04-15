@@ -193,7 +193,7 @@ public class EmpleadoRestController {
 		tr.setIpOrigen(ipAddress);
 		tr.setMetodo(metodo);
 		tr.setFechaTransaccion(new SimpleDateFormat(Constantes.FORMAT_DATE_STR).format(new Date()));
-		log.info("log traza : " + tr);
+		log.info("log traza {}",tr);
 		this.bitacoraService.saveTransaccion(tr);
 	}
 
